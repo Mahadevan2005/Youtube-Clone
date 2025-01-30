@@ -9,7 +9,7 @@ It features an intuitive layout using CSS Grid and Flexbox for seamless video pl
 - **CSS Grid**: Video placement
 - **Flexbox**: For headers and sidebars.
 - **Horizontal and Vertical layouts**: For structured content
-- - **CSS media queries**: For responsive design
+- **CSS media queries**: For responsive design
 
 ## 📸 Screenshots
 ![home-1](https://github.com/user-attachments/assets/bc302c31-407b-4e68-b57e-b8d3b5b3e1d8)
