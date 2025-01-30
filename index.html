@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+       </div>
+       <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-btn">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-btn">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+        </button>
+       </div>
+       <div class="right-section">
+            <div class="create">
+                <span style="font-size: 30px; font-weight: 200;">+&nbsp;</span>Create
+            </div>
+            <!-- <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload-logo.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <img class="yt-apps-icon" src="icons/youtube-apps.svg"> -->
+            <div class="notifi-icon-container">
+                <img class="notifi-icon" src="icons/notification-logo.svg">
+                <div class="notifi-cnt">3</div>
+                <div class="notifi-icon-btn">
+                    <div class="tooltip">Notifications</div>
+                </div>
+            </div>
+            <img class="user-icon" src="icons/current_user.jpg">
+       </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home-icon.svg">
+            <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/explore-icon.svg">
+            <div>Explore</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/subscriptions-icon.svg">
+            <div>Subscriptions</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/originals-icon.svg">
+            <div>Originals</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/youtube-music-icon.svg">
+            <div>Youtube Music</div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/library-icon.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <div class="vid-grid">
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <div class="vid-time">
+                    6.30
+                </div>
+                <a href="https://youtu.be/vhCndlWBw5Q?si=cYWHjEYWn7CdJkGO"><img class="thumbnail" src="thumbnails/thala_advice.jpg"></a>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/csk.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Thala's Life Advice | Etihad Meet & Greet | IPL 2024
+                    </p>
+                    <p class="vid-author">
+                        Chennai Super Kings
+                    </p>
+                    <p class="vid-stats">
+                        491K views &middot; 8 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/S1DvEdR0iUo?si=CN79hOAbHFJZtiYw"><img class="thumbnail" src="thumbnails/google_tn.jpg"></a>
+                <div class="vid-time">
+                    22.10
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/life_at_google.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Google India Engineers in a Mock System Design Interview
+                    </p>
+                    <p class="vid-author">
+                        Life at Google
+                    </p>
+                    <p class="vid-stats">
+                        145K views &middot; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/wsTv9y931o8?si=3Tt3l08Jq0X8aQ09"><img class="thumbnail" src="thumbnails/how_to_use_tn.jpg"></a>
+                <div class="vid-time">
+                    11.18
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/coding2go.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Learn CSS Flexbox in 20 Minutes (Course)
+                    </p>
+                    <p class="vid-author">
+                        Coding2GO
+                    </p>
+                    <p class="vid-stats">
+                        352K views &middot; 5 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/sF5LYGgKbUA?si=IV6za6GHUWAO5_-V"><img class="thumbnail" src="thumbnails/one_person_eliminated.jpg"></a>
+                <div class="vid-time">
+                    27.05
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/mr_beast.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Every Minute One Person Is Eliminated
+                    </p>
+                    <p class="vid-author">
+                        MrBeast
+                    </p>
+                    <p class="vid-stats">
+                        529M views &middot; 2 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/5puu3kN9l7c?si=c_B8RlpZV9xvdRCn"><img class="thumbnail" src="thumbnails/the_ai_race.jpg"></a>
+                <div class="vid-time">
+                    24.22
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/bloomberg.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Google CEO Sundar Pichai and the Future of AI | The Circuit
+                    </p>
+                    <p class="vid-author">
+                        Bloomberg Originals
+                    </p>
+                    <p class="vid-stats">
+                        4.5M views &middot; 8 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/jMfvlh0tjyo?si=2KKgmf-zkLYE6Hd3"><img class="thumbnail" src="thumbnails/dangal_tn.jpg"></a>
+                <div class="vid-time">
+                    4.58
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/zee_company.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Dangal - Title Track | Lyrical Video | Dangal | Aamir Khan | Pritam | Amitabh B | Daler Mehndi
+                    </p>
+                    <p class="vid-author">
+                        Zee Music Company
+                    </p>
+                    <p class="vid-stats">
+                        123M views &middot; 6 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/DvzboEBcHpk?si=HocFHXgeEKiDLZrg"><img class="thumbnail" src="thumbnails/8k_video.jpg"></a>
+                <div class="vid-time">
+                    57.16
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/8k_paradise.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        EXTREME CLARITY [8K HDR] DOLBY VISION™ 60 FPS
+                    </p>
+                    <p class="vid-author">
+                        8K Paradise
+                    </p>
+                    <p class="vid-stats">
+                        1.4M views &middot; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/WEBiebbeNCA?si=oPp7fLAS2gPpRiJ7"><img class="thumbnail" src="thumbnails/deepseek.jpg"></a>
+                <div class="vid-time">
+                    40.24
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/cnbc.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        How China’s New AI Model DeepSeek Is Threatening U.S. Dominance
+                    </p>
+                    <p class="vid-author">
+                        CNBC
+                    </p>
+                    <p class="vid-stats">
+                        439K views &middot; 5 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/8SN9Kj8SdgE?si=BVL_24ziOsc11gn7"><img class="thumbnail" src="thumbnails/jack_ma.jpg"></a>
+                <div class="vid-time">
+                    5.50
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/savanteum.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        How I Overcame Failure | Jack Ma | 馬雲/马云
+                    </p>
+                    <p class="vid-author">
+                        Savanteum
+                    </p>
+                    <p class="vid-stats">
+                        5.2M views &middot; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/qrvK_KuIeJk?si=C8Qwz0kTixKfTEMp"><img class="thumbnail" src="thumbnails/godfather_ai.jpg"></a>
+                <div class="vid-time">
+                    13.11
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/60_minutes.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        "Godfather of AI" Geoffrey Hinton: The 60 Minutes Interview
+                    </p>
+                    <p class="vid-author">
+                        60 Minutes
+                    </p>
+                    <p class="vid-stats">
+                        2.4M views &middot; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/KnppzfiZcgM?si=uTFV-GpslIruUwh-"><img class="thumbnail" src="thumbnails/bruce_lee.jpg"></a>
+                <div class="vid-time">
+                    22.30
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/bruce_lee.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Bruce Lee: "Your Greatest Enemy Is Within"
+                    </p>
+                    <p class="vid-author">
+                        Bruce Lee Reimagined
+                    </p>
+                    <p class="vid-stats">
+                        172K views &middot; 1 month ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/NXSigiaZ0W0?si=GZsQgNkbP7vMOzeF"><img class="thumbnail" src="thumbnails/vikram.jpg"></a>
+                <div class="vid-time">
+                    2.22
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/rkfi.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        VIKRAM - Official Title Teaser | #KamalHaasan232 | Kamal Haasan | Lokesh Kanagaraj | Anirudh
+                    </p>
+                    <p class="vid-author">
+                        Raaj Kamal Films International
+                    </p>
+                    <p class="vid-stats">
+                        42M views &middot; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/ijfLsKg8jFY?si=cKJNa9lYSxUsUhpJ"><img class="thumbnail" src="thumbnails/om_chant.jpg"></a>
+                <div class="vid-time">
+                    2.22
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/nova_spiritual.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Om 108 Times - Music for Yoga & Meditation
+                    </p>
+                    <p class="vid-author">
+                        Nova Spiritual India
+                    </p>
+                    <p class="vid-stats">
+                        103M views &middot; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/3yiWqnKl7lQ?si=aANlSW6tAJiTh7Mi"><img class="thumbnail" src="thumbnails/rohirat.jpg"></a>
+                <div class="vid-time">
+                    4.47
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/icc.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        The Epic Montage | T20 World Cup 2024 Final
+                    </p>
+                    <p class="vid-author">
+                        ICC
+                    </p>
+                    <p class="vid-stats">
+                        7.2M views &middot; 7 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/PmnH-Uw4Xlc?si=SFoIP3j1zx_OdoWe"><img class="thumbnail" src="thumbnails/hrx.jpg"></a>
+                <div class="vid-time">
+                    2.40
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/hrx.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Hrithik Roshan’s Transformation | The other side of Kabir | The HRX Story
+                    </p>
+                    <p class="vid-author">
+                        HRX Brand
+                    </p>
+                    <p class="vid-stats">
+                        23M views &middot; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <a href="https://youtu.be/Cxa8ockqa2c?si=vgsLREvtyxwWeuHy"><img class="thumbnail" src="thumbnails/aravind_sa.jpg"></a>
+                <div class="vid-time">
+                    4.13
+                </div>
+            </div>
+            <div class="vid-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/aravind_sa.jpg">
+                </div>
+                <div class="vid-info">
+                    <p class="vid-title">
+                        Chapathi Song - The Lungi Dance Parody
+                    </p>
+                    <p class="vid-author">
+                        Aravind SA
+                    </p>
+                    <p class="vid-stats">
+                        8.5M views &middot; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
